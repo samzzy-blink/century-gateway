@@ -1,0 +1,842 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+   background:rgb(160, 153, 153);
+}
+/* navbar */
+.navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+.navbar .max-width{
+    display: flex;
+    justify-content: center;
+    background-color:crimson;
+    margin-bottom: 0;
+}
+.navbar .navl .list{
+    display: inline-block;
+    list-style: none;
+}
+.navbar .navl .list a{
+    display: block;
+    margin-right: 30px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+
+}
+.navbar .navl .list a:hover{
+color: crimson;
+background: white;
+border: 2px solid crimson;
+}
+
+/* home page */
+.home{
+    display: flex;
+    background: url("./images/ggg.jpg");
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    color: white;
+    max-height: 680px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    
+}
+.opacity{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+}
+
+h1{
+    position: relative;
+    line-height: 0;
+    top: 300px;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.get{
+    position: relative;
+    top: 260px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.head-4{
+    position: relative;
+    top: 220px;
+    font-size: 25px;
+}
+
+
+.red{
+    color: red;
+}
+.green{
+    color: green;
+}
+.white{
+    color: white;
+}
+
+
+
+/* headings */
+.headings{
+    display: flex;
+    width: 55%;
+    margin: auto;    
+    margin-bottom: 30px;
+}
+.heading1{
+    background: crimson;
+    padding: 10px 7px;
+    font-size: 20px;
+    margin-right: 20px;
+    width: 30%;
+    width: fit-content;
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 1px rgb(255, 255, 255);
+}
+.heading2{
+    background: crimson;
+    padding: 10px 7px;
+    font-size: 20px;
+    margin-right: 20px;
+    width: 30%;
+    width: fit-content;
+    font-weight: bolder;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 1px  rgb(255, 255, 255);
+}
+.heading3{
+    background: crimson;
+    padding: 10px 7px;
+    font-size: 20px;
+    margin-right: 20px;
+    width: 40%;
+    font-weight: bolder;
+    width: fit-content;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 1px  rgb(255, 255, 255);
+}
+.heading4{
+    background: crimson;
+    padding: 10px 7px;
+    font-size: 20px;
+    margin-right: 10px;
+    width: 30%;
+    font-weight: bolder;
+    text-align: center;
+    width: fit-content;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 8px 1px  rgb(255, 255, 255);
+}
+
+/* cards */
+.cards, .cards-2, .cards-3, .cards-4 {
+    top: 20px;
+    display: flex;
+   
+    justify-content: center;
+    
+    
+}
+.cards-2, .cards-3, .cards-4{
+    margin-top: 20px;
+}
+.card-1{
+    flex-basis: 25%;
+    background: white; 
+    border: none;
+    text-align: start;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px crimson;
+}
+.card-3:hover, .card-2:hover, .card-1:hover{
+    background: crimson;
+    transform: scaleX();
+    color: white;
+}
+
+.card-2{
+    flex-basis: 25%;
+    border: none;
+    margin: 0px 20px;
+    background: white;
+    text-align: start;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px crimson;
+}
+
+.card-3{
+    flex-basis: 25%;
+    border: none;
+    background: white;
+    text-align: start;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px crimson;
+}
+
+
+
+.card-1 .imgs{
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px 10px 0 0;
+}
+.card-2 .imgs{
+    height: 30vh;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.card-3 .imgs{
+    height: 30vh;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* our teams */
+.title{
+    margin-bottom: 30px;
+    
+}
+h2{
+   
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.underline{
+    border: none;
+    height: 10px;
+    width: 100px;
+    background: crimson;
+   margin-top: 20px;
+    margin: auto;
+    border-radius: 2px;
+}
+.review{
+    margin-top: 40px;
+ background:white;
+ width: 600px;
+ margin: auto;
+ height: 460px;
+text-align: center;
+padding: 10px;
+border: none;
+border-radius: 5px;
+box-shadow: 1px 1px 6px 1px crimson;
+
+}
+#person-img{
+    border-radius: 50%;
+    border: crimson dotted 2px;
+    box-shadow: crimson 1px 1px 15px 1px;
+    width: 150px;
+    height: 150px;
+}
+#author{
+  
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#job{
+    font-size: 20px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: crimson;
+}
+#info{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.prev-btn, .next-btn{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid crimson;
+    color: crimson;
+    font-weight: bolder;
+}
+.prev, .next{
+    width: 100%;
+    height: 100%;
+}
+.random-btn{
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid crimson;
+    color: crimson;
+    font-weight: bolder;
+}
+
+/* footer */
+.contact{
+    background: rgb(19, 17, 17);
+    color:white;
+    height: 500px;
+    margin-bottom: -20px;
+}
+.contact .columns .column{
+    width: calc(50% - 30px);
+}
+.columns{
+    display: flex;
+}
+.text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+}
+.contact .right form .fields{
+    display: flex;
+    
+}
+
+.contact .right form .fields .field{
+ height: 45px;
+ width: 100%;
+ margin-bottom: 15px;
+}
+.contact .right form .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 80px;
+    width: 100%;
+}
+.contact .right form .name{
+    margin-right: 20px;
+}
+.contact .right form .email{
+    margin-left: 20px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid crimson;
+    border-radius: 7px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact .right form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+}
+.contact .right form .button{
+    height: 47px;
+    width: 170px;
+}
+.contact .right form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid crimson;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+.contact .right form .button button:hover{
+    color: crimson;
+    background: none;
+}
+
+
+.text-1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.titles{
+    line-height: 1rem;
+    margin-left: 30px;
+    
+}
+h5{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.ps{
+    margin-top: -25px;
+}
+.pss{
+    margin-top: 0px;
+}
+.footers{
+    background-color: black;
+    height: 55px;
+}
+.footer{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+span{
+    color: rgb(124, 125, 219);
+    font-weight: 1000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media(max-width:782px){
+
+    .navbar{
+        position: fixed;
+        width: 100%;
+        z-index: 9999;
+    }
+/* home page */
+.home{
+    display: flex;
+    background: url("./images/ggg.jpg");
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+    color: white;
+    max-height: 680px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+}
+.opacity{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+}
+
+h1{
+    position: relative;
+    line-height: 0;
+    top: 230px;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.get{
+    position: relative;
+    top: 220px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.head-4{
+    position: relative;
+    top: 180px;
+    font-size: 25px;
+}
+
+/* headings */
+.headings{
+    display: flex;
+    width: 80%;
+    margin: auto;    
+    margin-bottom: 20px;
+  
+}
+
+.heading1, .heading2,.heading3,.heading4{
+    font-size: 15px;
+}
+
+}
+
+
+@media(max-width:670px){
+    .navbar{
+        position: fixed;
+        width: 729px;
+        z-index: 9999;
+    }
+/* navbar */
+.navbar .navl .list a{
+    display: block;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 8px;
+
+}
+
+/* home page */
+.home{
+    display: flex;
+    background:url(./images/ggg.jpg);
+    background-size: cover;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 80vh;
+    color: white;
+    max-height: 600px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    width: 729px;
+    
+   
+}
+.opacity{
+    
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.8;
+}
+
+h1{
+    position: relative;
+    line-height: 0;
+    top: 100px;
+    font-size: 100px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.get{
+    position: relative;
+    top: 55px;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    text-align: center;
+}
+.head-4{
+    position: relative;
+    top: 30px;
+    font-size: 25px;
+    margin: auto;
+    width: 80%;
+}
+
+/* headings */
+.headings{
+    display: flex;
+    width: 90%;
+    margin: auto;    
+    margin-bottom: 18px;
+    margin-left: 55px;
+  
+}
+
+.heading1, .heading2,.heading3,.heading4{
+    font-size: 18px;
+}
+
+
+.title{
+    margin-bottom: 30px;
+    width: 650px;
+}
+
+
+.container{
+    width: 180%;
+    margin: auto;
+}
+.review{
+    margin-top: 40px;
+ background:white;
+ width: 550px;
+ margin: auto;
+ height: 400px;
+text-align: center;
+padding: 10px;
+border: none;
+border-radius: 5px;
+box-shadow: 1px 1px 6px 1px crimson;
+
+}
+#person-img{
+    border-radius: 50%;
+    border: crimson dotted 2px;
+    box-shadow: crimson 1px 1px 15px 1px;
+    width: 120px;
+}
+#author{
+  
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#job{
+    font-size: 16px;
+    font-family:  Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    color: crimson;
+}
+#info{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.prev-btn, .next-btn{
+    height: 30px;
+    width: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid crimson;
+    color: crimson;
+    font-weight: bolder;
+}
+.prev, .next{
+    width: 100%;
+    height: 100%;
+}
+.random-btn{
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid crimson;
+    color: crimson;
+    font-weight: bolder;
+}
+
+
+/* footer */
+.contact{
+    background: rgb(19, 17, 17);
+    color:white;
+    height: 700px;
+    margin-bottom: 30px;
+    width: 729px;
+}
+.contact .columns .column{
+    width: calc(90% - 30px);
+    margin: auto;
+}
+.columns{
+    display: block;
+}
+.text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    
+}
+.contact .right form .fields{
+    display: flex;
+    
+}
+
+.contact .right form .fields .field{
+ height: 45px;
+ width: 100%;
+ margin-bottom: 15px;
+}
+.contact .right form .field{
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.contact .right form .textarea{
+    height: 80px;
+    width: 100%;
+}
+.contact .right form .name{
+    margin-right: 20px;
+}
+.contact .right form .email{
+    margin-left: 20px;
+}
+.contact .right form .field input,
+.contact .right form .textarea textarea{
+    height: 100%;
+    width: 100%;
+    border: 1px solid crimson;
+    border-radius: 7px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.contact .right form .textarea textarea{
+    padding-top: 10px;
+    resize: none;
+}
+.contact .right form .button{
+    height: 47px;
+    width: 170px;
+}
+.contact .right form .button button{
+    width: 100%;
+    height: 100%;
+    border: 2px solid crimson;
+    background: crimson;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+.contact .right form .button button:hover{
+    color: crimson;
+    background: none;
+}
+
+
+.text-1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.titles{
+    line-height: 1rem;
+    margin-left: 30px;
+    
+}
+h5{
+    font-size: 20px;
+    margin-top: 15px;
+}
+.ps{
+    margin-top: -25px;
+}
+.pss{
+    margin-top: 0px;
+}
+.footers{
+    background-color: black;
+    height: 55px;
+    width: 729px;
+}
+.footer{
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 20px;
+    color: white;
+}
+span{
+    color: rgb(124, 125, 219);
+    font-weight: 1000;
+}
+
+
+
+
+/* cards */
+.cards, .cards-2{
+    margin: auto;
+    width: 650px;
+}
+
+.cards-2, .cards-3, .cards-4{
+    margin-top: 20px;
+    
+}
+.card-1{
+    flex-basis: 25%;
+    background: white; 
+    border: none;
+    text-align: start;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px crimson;
+}
+.card-3:hover, .card-2:hover, .card-1:hover{
+    background: crimson;
+    transform: scaleX();
+    color: white;
+}
+
+.card-2{
+    width: 500px;
+   
+    flex-basis: 25%;
+    border: none;
+    margin: 0px 20px;
+    background: white;
+    text-align: start;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px crimson;
+}
+
+.card-3{
+    flex-basis: 25%;
+    border: none;
+    background: white;
+    text-align: start;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px 1px crimson;
+}
+
+
+
+.card-1 .imgs{
+    width: 100%;
+    height: 30vh;
+    border-radius: 10px 10px 0 0;
+}
+.card-2 .imgs{
+    height: 30vh;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+.card-3 .imgs{
+    height: 30vh;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+}
